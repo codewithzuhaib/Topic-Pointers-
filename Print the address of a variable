@@ -3,7 +3,7 @@
 int main() {
     int a = 25;
 
-    printf("Address of a = %p\n", (void *)&a);
+    printf("Address of a = %u\n", &a);
 
     return 0;
 }
